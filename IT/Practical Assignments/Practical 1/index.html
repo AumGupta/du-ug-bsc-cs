@@ -1,0 +1,149 @@
+<!-- 
+    IT Practical-1
+    Create an HTML page that shows your CV. It should have following Sections :
+    1. Name, Photograph and Address ( on Top, separated by a horizontal line, Name should be in bold, Address in italics) 
+    2. Academic Qualification in tabular form
+    3. Course Details (Paragraph Form)
+    4. Hobbies in unordered list
+    5. Plans/Goals
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #3d3d3d;
+
+        }
+
+        a:visited {
+            color: #3d3d3d;
+
+        }
+
+        a:hover {
+            color: #00abdf;
+
+        }
+
+        body {
+            font-family: 'Poppins';
+            margin: 4% 12%;
+            color: #3d3d3d;
+        }
+
+        hr {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #ededed;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+
+        h1 {
+            color: #00abdf;
+            font-size: 250%;
+        }
+
+        h3,
+        h4 {
+            color: #00abdf;
+        }
+
+        .circular {
+            border-radius: 100%;
+        }
+
+        .rounded {
+            border: 2px solid #ededed;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <center><img class="circular" src="https://avatars.githubusercontent.com/u/86357151?v=4"
+            alt="Om Gupta's Profile Picture" width="200rem" height="200rem">
+        <h1><strong>
+                Om Gupta
+            </strong></h1>
+    </center>
+    <hr>
+    <h3>Address</h3>
+    <p><em>House No. 59, MS Flats, Timarpur, Delhi - 110054</em></p>
+    <hr>
+    <h3>Academic Qualification</h3>
+    <table class="rounded" cellpadding="10%" width="100%">
+        <thead class="rounded">
+            <th>Institution</th>
+            <th>Standard</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="rounded"><a href="http://www.du.ac.in/" target="_blank">Delhi University</a></td>
+                <td class="rounded">Under Graduation</td>
+            </tr>
+            <tr>
+                <td class="rounded"><a href="https://www.apsnrlucknow.org/" target="_blank">Army Public School</a></td>
+                <td class="rounded">Senior Secondary</td>
+            </tr>
+            <tr>
+                <td class="rounded"><a href="https://vsnnagpur.kvs.ac.in/" target="_blank">Kendriya Vidyalaya</a></td>
+                <td class="rounded">Till 2nd Grade</td>
+            </tr>
+            <tr>
+                <td class="rounded"><a href="https://www.airforceschoolvsnnagpur.org/" target="_blank">Air Force
+                        School</a></td>
+                <td class="rounded">Kindergarten</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <hr>
+    <h3>Course Details</h3>
+    <p>
+        The B.Sc. (H) Computer Science programme is designed to develop analytical & computational
+        thinking, and problem solving skills. It covers the core computer science topics like computer
+        systems architecture, data structures, computer networks, operating systems, computer graphics,
+        algorithms, software engineering, database management, theory of computation, artificial
+        intelligence, and information security. The programme builds a base for entry level jobs in
+        information technology and prepares the students for higher studies in the area of Computer
+        Science/Applications.
+    </p>
+
+    <hr>
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li><a href="https://github.com/AumGupta" target="_blank">Coding</a></li>
+        <li><a href="https://www.chess.com/stats/overview/zuesonearth?" target="_blank">Chess</a></li>
+        <li>Martial Arts</li>
+        <li>Music</li>
+    </ul>
+    <hr>
+    <h3>Plans</h3>
+    <ul>
+        <li>🚀 Unceasing Education</li>
+        <li>💪 Entrepreneurship</li>
+        <li>☮️ Life Set</li>
+    </ul>
+    <hr>
+</body>
+
+</html>
