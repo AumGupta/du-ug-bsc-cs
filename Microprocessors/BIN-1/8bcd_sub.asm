@@ -1,0 +1,10 @@
+.model small
+.code
+	MOV DL,99H
+	MOV BL,34H
+	SUB DL,BL
+	MOV AL,DL
+	DAS
+	MOV DX,3099H
+	MOV BX,1234H
+end

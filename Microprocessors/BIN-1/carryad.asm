@@ -1,0 +1,9 @@
+.model small
+.code
+MOV AX, 1111H
+MOV BX, 0F111H
+MOV CX, 1111H
+MOV DX, 1111H
+ADD AX, BX
+ADC CX, DX
+end

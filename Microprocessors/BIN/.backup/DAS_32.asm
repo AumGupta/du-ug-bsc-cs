@@ -1,0 +1,21 @@
+.model small
+.code
+.startup
+	MOV AL,1FH
+	SUB AL,12H
+	DAS
+	MOV CL ,AL
+	MOV AL,56H
+	SBB AL,43H
+	DAS
+	MOV CH,Al
+	MOV AL,34H
+	SBB AL,65H
+	DAS
+	MOV DL,AL
+	MOV AL,12H
+	SBB AL,87H
+	DAS
+	MOV DH,AL
+.exit
+end
